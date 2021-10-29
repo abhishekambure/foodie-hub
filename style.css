@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    font-family: "Poppins" , sans-serif;
+}
+
+:root
+{
+    --el-color:#333;
+}
+
+h1,h2,h3,h4,a,p{
+    color: var(--el-color);
+}
+
+a{
+    text-decoration: none;
+}
+
+h1{
+    font-size: 2.5rem;
+}
+
+h2{
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+h3{
+    font-weight: 600;
+}
+
+p{
+    font-weight: 300;
+}
+
+.m-t{
+    margin-top: 150px;
+}
+
+.m-b{
+    margin-bottom: 100px;
+}
+
+.container
+{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+/* header section */
+ 
+nav{
+    height: 100px;
+}
+
+nav h2{
+    float: left;
+    display: inline;
+    line-height: 100px;
+}
+
+nav ul{
+    float: right;
+    line-height: 100px;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 0 25px;
+}
+
+nav ul li a{
+    text-transform: uppercase;
+}
+
+.home
+{
+    background-color: tomato;
+    border-radius: 20px;
+    padding: 7px 25px;
+    color: white;
+}
+
+/* main frame css */
+
+.frame
+{
+    height: calc(100vh - 100px);
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("images/foodimage.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-bottom: 8px solid chocolate;
+}
+
+.frame-content h1
+{
+    color: white;
+    letter-spacing: 2px;
+}
+
+.frame-content p
+{
+    margin: 50px 0;
+    color: white;
+}
+
+.frame-content
+{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    transform: translateY(30vh);
+}
+
+.frame-content .button
+{
+    color: white;
+    border: 2px solid white;
+    padding:  10px 60px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    transition: 0.5s all;
+}
+
+.frame-content .button:hover
+{
+    background-color: tomato;
+    border: 0;
+}
+
+/* about */
+
+.about-image
+{
+    width: 45%;
+    float: left;
+}
+
+.about-wrapper img
+{
+    max-width: 100%;
+    height: auto;
+}
+
+.about-content
+{
+    width: 45%;
+    float: right;
+    text-align: left;
+    margin-top: 50px;
+}
